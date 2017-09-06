@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youmax 2.1 - complete Youtube channel on your website - Jquery plugin</title>
+
+	<!--<script src="./jquery.min.js"></script>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="./js/youmax.js"></script>
+	<link rel="stylesheet" href="./css/youmax.css"/>
+
+	<script type="text/javascript">
+	
+		function goClicked() {
+			$('#youmax').empty().append(' loading ...');
+			
+			$('#youmax').youmax({
+				apiKey:'AIzaSyDEm5wGLsWi2G3WG40re-DAJcWioQSpJ6o',
+				youTubeChannelURL:$('#youTubeChannelUrl').val(),
+				
+				youTubePlaylistURL:$('#youTubePlaylistUrl').val(),
+				youmaxDefaultTab:"UPLOADS",
+				youmaxColumns:3,
+				showVideoInLightbox:false,
+				maxResults:15,
+				
+			});
+
+			//youTubeChannelURL=$('#youTubeChannelUrl').val();
+			//youTubePlaylistURL=$('#youTubePlaylistUrl').val();
+		}
+
+	</script>
+
+	
+	<style>
+
+      body {
+        font-family: Calibri;
+        font-size: 14px;
+		text-align:center;
+      }
+	  
+	  /*#youmax{width:100% !important;}
+	  #youmax-video-list-div{background-color:rgb(53,53,53) !important;}
+	  #youmax-tabs{background-color:rgb(53,53,53) !important;}
+	  #youmax-header{background-color:black !important;}
+	  .youmax-video-list-title{color:white !important;}
+	  .youmax-video-list-views{color:green !important;}*/
+	  
+		
+	</style>
+
+	</head>
+  <body>
+	
+		
+<div id="youmax"></div>
+
+<br/><br/>
+
+
+<br/><br/><br/>
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+
+
+	<script>
+		$('#youmax').youmax({
+			apiKey:'AIzaSyDEm5wGLsWi2G3WG40re-DAJcWioQSpJ6o',
+			youTubeChannelURL:"https://www.youtube.com/user/USFPCGS",
+			
+			youTubePlaylistURL:"https://www.youtube.com/playlist?list=PLN3oNti1rtyqeeCBPc5FQfrXR9hfxNpxr",
+			youmaxDefaultTab:"FEATURED",
+			youmaxColumns:3,
+			showVideoInLightbox:false,
+			maxResults:15,
+			
+		});
+		
+	
+	</script>
+
+  </body>
+</html>
+
+
+

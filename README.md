@@ -3,8 +3,6 @@ Youmax
 
 Complete Youtube channel on your website
 
-<b>Download:</b> http://www.codehandling.com/p/codehandling-free-plugins.html <br>
-<br>
 <b>Documentation:</b> http://www.codehandling.com/2013/03/youmax-20-complete-youtube-channel-on.html<br>
 <b>Demo:</b> http://demos.codehandling.com/youmax2/youmax.html<br>
 <b>Premium Version:</b> http://www.codehandling.com/2015/02/youmax-50-complete-solution-for.html<br>
@@ -12,9 +10,9 @@ Complete Youtube channel on your website
 Screenshots
 ========
 
-![alt tag](https://3.bp.blogspot.com/-2faj3rje8Xg/V2pR1tE0SfI/AAAAAAAAB_I/H0-MZ2dUNW8V0vbfnPnNX-L4AOWVCHWOQCLcB/s800/ymax_screen_1.png)
+![alt tag](https://lh3.googleusercontent.com/-tZbeQTb-Oio/VUc_rK8btEI/AAAAAAAABqA/wI1w1hRjgP4/s800/s1.png)
 <br><br>
-![alt tag](https://1.bp.blogspot.com/-YTbp0peZVq0/V2pR1eVwLhI/AAAAAAAAB_E/l526m2SiQ0koBOJkUKWfXNcNV2N358jXQCLcB/s800/ymax_screen_2.png)
+![alt tag](https://lh3.googleusercontent.com/-Py6koTZ8MII/VUc_pZvazsI/AAAAAAAABp4/agoyQ4eVsV8/s800/s2.png)
 
 
 Benefits
@@ -45,4 +43,4 @@ https://plus.google.com/+JakeHandling
 
 License
 =======
-This plugin is available under the MIT licence under the condition that you cannot re-distribute the plugin.
+This plugin is available under the <a href="https://github.com/codehandling/youmax/blob/master/GNU.md">GNU General Public License</a>.
